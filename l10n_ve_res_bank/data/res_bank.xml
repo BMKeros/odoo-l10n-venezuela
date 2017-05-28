@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="True">
+
+        <record model="res.bank" id="0001">
+            <field name="name">Banco Central de Venezuela</field>
+            <field name='bic'>0001</field>
+            <field name='active'>1</field>
+            <field name='street'>Av. Urdaneta esq. Las Carmelitas</field>
+            <field name='street2'>Carmelitas 1010</field>
+            <field name='city'>Caracas</field>
+            <field name='zip'>1010</field>
+            <field name='state' ref='l10n_ve_res_country_state.VE_DC'/>
+            <field name="country" ref='base.ve'/>
+            <field name='phone'>+582128015111</field>
+            <field name='fax'>+582128611649</field>
+            <field name='email'>http://www.bcv.org.ve</field>
+        </record>
+
+        <record model="res.bank" id="0102">
+            <field name="name">Banco de Venezuela S.A.C.A. Banco Universal</field>
+            <field name='bic'>0102</field>
+            <field name='active'>1</field>
+            <field name='street'>Av. Universidad, Esquina de Sociedad</field>
+            <field name='street2'>Torre Banco de Venezuela, Piso 18</field>
+            <field name='city'>Caracas</field>
+            <field name='zip'>1010</field>
+            <field name='state' ref='l10n_ve_res_country_state.VE_DC'/>
+            <field name="country" ref='base.ve'/>
+            <field name='phone'>+5805002528328</field>
+            <field name='fax'>+58</field>
+            <field name='email'>servicios_alcliente@banvenez.com</field>
+        </record>
+
+        <record model="res.bank" id="0104">
+            <field name="name">Venezolano de Crédito, S.A. Banco Universal</field>
+            <field name='bic'>0104</field>
+            <field name='active'>1</field>
+            <field name='street'>Avenida Alameda, edificio Banco Venezolano de Crédito</field>
+            <field name='street2'>Torre Norte. Urbanización San Bernardino</field>
+            <field name='city'>Caracas</field>
+            <field name='zip'>1010</field>
+            <field name='state' ref='l10n_ve_res_country_state.VE_DC'/>
+            <field name="country" ref='base.ve'/>
+            <field name='phone'>+582128066111</field>
+            <field name='fax'>+58</field>
+            <field name='email'>contactobvc@venezolano.com</field>
+        </record>
+
+        <record model="res.bank" id="0105">
+            <field name="name">Banco Mercantil, C.A. Banco Universal</field>
+            <field name='bic'>0105</field>
+            <field name='active'>1</field>
+            <field name='street'>Avenida Andrés Bello, Edificio Mercantil</field>
+            <field name='street2'>La Candelaria</field>
+            <field name='city'>Caracas</field>
+            <field name='zip'>1010</field>
+            <field name='state' ref='l10n_ve_res_country_state.VE_DC'/>
+            <field name="country" ref='base.ve'/>
+            <field name='phone'>+582125031111</field>
+            <field name='fax'>+582125032424</field>
+            <field name='email'>mercan24@bancomercantil.com</field>
+        </record>
+
+        <record model="res.bank" id="0108">
+            <field name="name">Banco Provincial, S.A. Banco Universal</field>
+            <field name="bic">0108</field>
+            <field name="active">1</field>
+            <field name="country" ref='base.ve'/>
+        </record>
+
+        <record model="res.bank" id="0114">
+            <field name="name">Bancaribe C.A. Banco Universal</field>
+            <field name="bic">0114</field>
+            <field name="active">1</field>
+            <field name="country" ref='base.ve'/>
+        </record>
+
+        <record model="res.bank" id="0115">
+            <field name="name">Banco Exterior C.A. Banco Universal</field>
+            <field name="bic">0115</field>
+            <field name="active">1</field>
+            <field name="country" ref='base.ve'/>
+        </record>
+
+        <record model="res.bank" id="0116">
+            <field name="name">Banco Occidental de Descuento, Banco Universal C.A</field>
+            <field name="bic">0116</field>
+            <field name="active">1</field>
+            <field name="country" ref='base.ve'/>
+        </record>
+
+        <record model="res.bank" id="0128">
+            <field name="name">Banco Caroní C.A. Banco Universal</field>
+            <field name="bic">0128</field>
+            <field name="active">1</field>
+            <field name="country" ref='base.ve'/>
+        </record>
+
+        <record model="res.bank" id="0134">
+            <field name="name">Banesco Banco Universal S.A.C.A.</field>
+            <field name="bic">0134</field>
+            <field name="active">1</field>
+            <field name="country" ref='base.ve'/>
+        </record>
+
+        <record model="res.bank" id="0137">
+            <field name="name">Banco Sofitasa, Banco Universal</field>
+            <field name="bic">0137</field>
+            <field name="active">1</field>
+            <field name="country" ref='base.ve'/>
+        </record>
+
+        <record model="res.bank" id="0138">
+            <field name="name">Banco Plaza, Banco Universal</field>
+            <field name="bic">0138</field>
+            <field name="active">1</field>
+            <field name="country" ref='base.ve'/>
+        </record>
+
+        <record model="res.bank" id="0146">
+            <field name="name">Banco de la Gente Emprendedora C.A</field>
+            <field name="bic">0146</field>
+            <field name="active">1</field>
+            <field name="country" ref='base.ve'/>
+        </record>
+
+        <record model="res.bank" id="0151">
+            <field name="name">BFC Banco Fondo Común C.A. Banco Universal</field>
+            <field name="bic">0151</field>
+            <field name="active">1</field>
+            <field name="country" ref='base.ve'/>
+        </record>
+
+        <record model="res.bank" id="0156">
+            <field name="name">100% Banco, Banco Universal C.A.</field>
+            <field name="bic">0156</field>
+            <field name="active">1</field>
+            <field name="country" ref='base.ve'/>
+        </record>
+
+        <record model="res.bank" id="0157">
+            <field name="name">DelSur Banco Universal C.A.</field>
+            <field name="bic">0157</field>
+            <field name="active">1</field>
+            <field name="country" ref='base.ve'/>
+        </record>
+
+        <record model="res.bank" id="0163">
+            <field name="name">Banco del Tesoro, C.A. Banco Universal</field>
+            <field name="bic">0163</field>
+            <field name="active">1</field>
+            <field name="country" ref='base.ve'/>
+        </record>
+
+        <record model="res.bank" id="0166">
+            <field name="name">Banco Agrícola de Venezuela, C.A. Banco Universal</field>
+            <field name="bic">0166</field>
+            <field name="active">1</field>
+            <field name="country" ref='base.ve'/>
+        </record>
+
+        <record model="res.bank" id="0168">
+            <field name="name">Bancrecer, S.A. Banco Microfinanciero</field>
+            <field name="bic">0168</field>
+            <field name="active">1</field>
+            <field name="country" ref='base.ve'/>
+        </record>
+
+        <record model="res.bank" id="0169">
+            <field name="name">Mi Banco, Banco Microfinanciero C.A.</field>
+            <field name="bic">0169</field>
+            <field name="active">1</field>
+            <field name="country" ref='base.ve'/>
+        </record>
+
+        <record model="res.bank" id="0171">
+            <field name="name">Banco Activo, Banco Universal</field>
+            <field name="bic">0171</field>
+            <field name="active">1</field>
+            <field name="country" ref='base.ve'/>
+        </record>
+
+        <record model="res.bank" id="0172">
+            <field name="name">Bancamica, Banco Microfinanciero C.A.</field>
+            <field name="bic">0172</field>
+            <field name="active">1</field>
+            <field name="country" ref='base.ve'/>
+        </record>
+
+        <record model="res.bank" id="0173">
+            <field name="name">Banco Internacional de Desarrollo, C.A. Banco Universal</field>
+            <field name="bic">0173</field>
+            <field name="active">1</field>
+            <field name="country" ref='base.ve'/>
+        </record>
+
+        <record model="res.bank" id="0174">
+            <field name="name">Banplus Banco Universal, C.A</field>
+            <field name="bic">0174</field>
+            <field name="active">1</field>
+            <field name="country" ref='base.ve'/>
+        </record>
+
+        <record model="res.bank" id="0175">
+            <field name="name">Banco Bicentenario del Pueblo de la Clase Obrera, Mujer y Comunas B.U.</field>
+            <field name="bic">0175</field>
+            <field name="active">1</field>
+            <field name="country" ref='base.ve'/>
+        </record>
+
+        <record model="res.bank" id="0176">
+            <field name="name">Novo Banco, S.A. Sucursal Venezuela Banco Universal</field>
+            <field name="bic">0176</field>
+            <field name="active">1</field>
+            <field name="country" ref='base.ve'/>
+        </record>
+
+        <record model="res.bank" id="0177">
+            <field name="name">Banco de la Fuerza Armada Nacional Bolivariana, B.U.</field>
+            <field name="bic">0177</field>
+            <field name="active">1</field>
+            <field name="country" ref='base.ve'/>
+        </record>
+
+        <record model="res.bank" id="0190">
+            <field name="name">Citibank N.A.</field>
+            <field name="bic">0190</field>
+            <field name="active">1</field>
+            <field name="country" ref='base.ve'/>
+        </record>
+
+        <record model="res.bank" id="0191">
+            <field name="name">Banco Nacional de Crédito, C.A. Banco Universal</field>
+            <field name="bic">0191</field>
+            <field name="active">1</field>
+            <field name="country" ref='base.ve'/>
+        </record>
+
+        <record model="res.bank" id="0601">
+            <field name="name">Instituto Municipal de Crédito Popular</field>
+            <field name="bic">0601</field>
+            <field name="active">1</field>
+            <field name="country" ref='base.ve'/>
+        </record>
+
+    </data>
+</odoo>
