@@ -7,7 +7,7 @@
             <field name='bic'>0001</field>
             <field name='active'>1</field>
             <field name='street'>Av. Urdaneta esq. Las Carmelitas</field>
-            <field name='street2'>Carmelitas 1010</field>
+            <field name='street2'>Carmelitas</field>
             <field name='city'>Caracas</field>
             <field name='zip'>1010</field>
             <field name='state' ref='l10n_ve_res_country_state.VE_DC'/>
@@ -28,7 +28,6 @@
             <field name='state' ref='l10n_ve_res_country_state.VE_DC'/>
             <field name="country" ref='base.ve'/>
             <field name='phone'>+5805002528328</field>
-            <field name='fax'>+58</field>
             <field name='email'>servicios_alcliente@banvenez.com</field>
         </record>
 
@@ -43,7 +42,6 @@
             <field name='state' ref='l10n_ve_res_country_state.VE_DC'/>
             <field name="country" ref='base.ve'/>
             <field name='phone'>+582128066111</field>
-            <field name='fax'>+58</field>
             <field name='email'>contactobvc@venezolano.com</field>
         </record>
 
@@ -66,182 +64,374 @@
             <field name="name">Banco Provincial, S.A. Banco Universal</field>
             <field name="bic">0108</field>
             <field name="active">1</field>
+            <field name='street'> Av. Vollmer, Cruce con Av. Este 0, Edif Centro Financiero Provincial, PB</field>
+            <field name='street2'>La Candelaria</field>
+            <field name='city'>Caracas</field>
+            <field name='zip'>1010</field>
+            <field name='state' ref='l10n_ve_res_country_state.VE_DC'/>
             <field name="country" ref='base.ve'/>
+            <field name='phone'>+582129059411</field>
+            <field name='email'>defensordelcliente.ve@bbva.com</field>
         </record>
 
         <record model="res.bank" id="0114">
             <field name="name">Bancaribe C.A. Banco Universal</field>
             <field name="bic">0114</field>
             <field name="active">1</field>
+            <field name='street'>Esquina Dr. Paúl a Salvador de León, Edif. 42, PB</field>
+            <field name='street2'>La Hoyada</field>
+            <field name='city'>Caracas</field>
+            <field name='zip'>1020</field>
+            <field name='state' ref='l10n_ve_res_country_state.VE_DC'/>
             <field name="country" ref='base.ve'/>
+            <field name='phone'>+582125055030</field>
+            <field name='fax'>+582125632382</field>
+            <field name='email'>uac@bancaribe.com.ve</field>
         </record>
 
         <record model="res.bank" id="0115">
             <field name="name">Banco Exterior C.A. Banco Universal</field>
             <field name="bic">0115</field>
             <field name="active">1</field>
+            <field name='street'>Av. Urdaneta, con Esquina Urapal a Río, Edif. Banco Exterior</field>
+            <field name='street2'>La Candelaria</field>
+            <field name='city'>Caracas</field>
+            <field name='zip'>1010</field>
+            <field name='state' ref='l10n_ve_res_country_state.VE_DC'/>
             <field name="country" ref='base.ve'/>
+            <field name='phone'>+582125085000</field>
+            <field name='email'>contactoe24@bancoexterior.com</field>
         </record>
 
         <record model="res.bank" id="0116">
             <field name="name">Banco Occidental de Descuento, Banco Universal C.A</field>
             <field name="bic">0116</field>
             <field name="active">1</field>
+            <field name='street'>Calle 77, Esquina Av. 17, 5 de Julio</field>
+            <field name='city'>Maracaibo</field>
+            <field name='zip'>4001</field>
+            <field name='state' ref='l10n_ve_res_country_state.VE_ZU'/>
             <field name="country" ref='base.ve'/>
+            <field name='phone'>+582617402600</field>
+            <field name='fax'>+582617921222</field>
+            <field name='email'>contactoamigo@bod.com.ve</field>
         </record>
 
         <record model="res.bank" id="0128">
             <field name="name">Banco Caroní C.A. Banco Universal</field>
             <field name="bic">0128</field>
             <field name="active">1</field>
+            <field name='street'>Av Via Venezuela, Puerto Ordaz</field>
+            <field name='street2'>Puerto Ordaz</field>
+            <field name='city'>Bolivar</field>
+            <field name='zip'>8050</field>
+            <field name='state' ref='l10n_ve_res_country_state.VE_BO'/>
             <field name="country" ref='base.ve'/>
+            <field name='phone'>+582869205456</field>
+             <field name='fax'>+582867122208</field> 
+            <field name='email'>click.caroni@bancocaroni.com.ve</field>
         </record>
 
         <record model="res.bank" id="0134">
             <field name="name">Banesco Banco Universal S.A.C.A.</field>
             <field name="bic">0134</field>
             <field name="active">1</field>
+            <field name='street'>Av. Principal Entre Calle Lincoln y Calle Sorbona, Edif. Ciudad Banesco</field>
+            <field name='street2'>Colinas de Bello Monte</field>
+            <field name='city'>Caracas</field>
+            <field name='zip'>1050</field>
+            <field name='state' ref='l10n_ve_res_country_state.VE_DC'/>
             <field name="country" ref='base.ve'/>
+            <field name='phone'>+582125011111</field>           
+            <field name='fax'>+582125018582</field>
+            <field name='email'>atclient@banesco.com</field>
         </record>
+        
 
         <record model="res.bank" id="0137">
             <field name="name">Banco Sofitasa, Banco Universal</field>
             <field name="bic">0137</field>
             <field name="active">1</field>
+            <field name='street'>Séptima. Avenida esquina calle 4, Edif. Banco Sofitasa</field>
+            <field name='city'>San Cristobal</field>
+            <field name='zip'>5001</field>
+            <field name='state' ref='l10n_ve_res_country_state.VE_TA'/>
             <field name="country" ref='base.ve'/>
+            <field name='phone'>+582763404557</field>           
+            <field name='fax'>+58763401631</field>
+            <field name='email'>sofi.movil@sofitasa.com</field>
         </record>
 
         <record model="res.bank" id="0138">
             <field name="name">Banco Plaza, Banco Universal</field>
             <field name="bic">0138</field>
             <field name="active">1</field>
+              <field name='street'>Av. Casanova, Entre calles Unión y Villaflor</field>
+            <field name='street2'>Sabana Grande</field>
+            <field name='city'>Caracas</field>
+            <field name='zip'>1020</field>
+            <field name='state' ref='l10n_ve_res_country_state.VE_DC'/>
             <field name="country" ref='base.ve'/>
+            <field name='phone'>+582122082608</field>           
+            <field name='email'>centrodeatencion@bancoplaza.com</field>
         </record>
 
         <record model="res.bank" id="0146">
             <field name="name">Banco de la Gente Emprendedora C.A</field>
             <field name="bic">0146</field>
             <field name="active">1</field>
+            <field name='street'>Av. Bolívar, Cruce con Calle Washintong, Local Nº. 79</field>
+            <field name='street2'>Sector Perez Bonalde</field>
+            <field name='city'>Caracas</field>
+            <field name='zip'>1030</field>
+            <field name='state' ref='l10n_ve_res_country_state.VE_DC'/>
             <field name="country" ref='base.ve'/>
+            <field name='phone'>+582128701333</field>           
+            <field name='email'>emprendedores@bangente.com.ve</field>
         </record>
 
         <record model="res.bank" id="0151">
             <field name="name">BFC Banco Fondo Común C.A. Banco Universal</field>
             <field name="bic">0151</field>
             <field name="active">1</field>
+            <field name='street'Av. Principal de las Mercedes entre calle Guaicaipuro y Av. Venezuela Torre BFC.</field>
+            <field name='street2'>Chacao</field>
+            <field name='city'>Cracas</field>
+            <field name='zip'>1060</field>
+            <field name='state' ref='l10n_ve_res_country_state.VE_DC'/>
             <field name="country" ref='base.ve'/>
+            <field name='phone'>+582125972291</field>           
+            <field name='email'>atencionalcliente@bfc.com.ve</field>
         </record>
 
         <record model="res.bank" id="0156">
             <field name="name">100% Banco, Banco Universal C.A.</field>
             <field name="bic">0156</field>
             <field name="active">1</field>
+            <field name='street'>Av.  Blandín. Centro San Ignacio. Torre Copérnico. Piso 10.</field>
+            <field name='street2'>La Castellana</field>
+            <field name='city'>Caracas</field>
+            <field name='zip'>1060</field>
+            <field name='state' ref='l10n_ve_res_country_state.VE_DC'/>
             <field name="country" ref='base.ve'/>
+            <field name='phone'>+582122775300</field>           
+            <field name='email'>atencionalcliente@100x100banco.com</field> 
         </record>
 
         <record model="res.bank" id="0157">
             <field name="name">DelSur Banco Universal C.A.</field>
             <field name="bic">0157</field>
             <field name="active">1</field>
+            <field name='street'>Calle Caicara, Edificio DELSUR</field>
+            <field name='street2'>Puerto Ordaz</field>
+            <field name='city'>Bolivar</field>
+            <field name='zip'>8050</field>
+            <field name='state' ref='l10n_ve_res_country_state.VE_BO'/>
             <field name="country" ref='base.ve'/>
+            <field name='phone'>+582869203605 </field>           
+            <field name='email'>atencionalcliente@delsur.com.ve</field>
         </record>
 
         <record model="res.bank" id="0163">
             <field name="name">Banco del Tesoro, C.A. Banco Universal</field>
             <field name="bic">0163</field>
             <field name="active">1</field>
+             <field name='street'>Calle Guaicaipuro,con Calle Mohedano Torre Banco del Tesoro nivel PB, Urb. El Rosal</field>
+            <field name='street2'>Municipio Chacao</field>
+            <field name='city'>Caracas</field>
+            <field name='zip'>1060</field>
+            <field name='state' ref='l10n_ve_res_country_state.VE_DC'/>
             <field name="country" ref='base.ve'/>
+            <field name='phone'>+582129999620</field>           
+            <field name='email'>atencionc@bt.gob.ve</field>
         </record>
 
         <record model="res.bank" id="0166">
             <field name="name">Banco Agrícola de Venezuela, C.A. Banco Universal</field>
             <field name="bic">0166</field>
             <field name="active">1</field>
+           <field name='street'>Av. Francisco de Miranda Edificio Cavendes Piso 17 Urb Los Palos Grandes</field>
+            <field name='street2'>Municipio Chacao</field>
+            <field name='city'>Cracas</field>
+            <field name='zip'>1060</field>
+            <field name='state' ref='l10n_ve_res_country_state.VE_DC'/>
             <field name="country" ref='base.ve'/>
+            <field name='phone'>+582122088664 </field>           
+            <field name='email'>atencionalciudadano@bav.com.ve</field>
         </record>
 
         <record model="res.bank" id="0168">
             <field name="name">Bancrecer, S.A. Banco Microfinanciero</field>
             <field name="bic">0168</field>
             <field name="active">1</field>
+            <field name='street'>Calle Sucre con Avenida Mohedano de Chacao, Edificio Pedalbia I, Local Comercial PB</field>
+            <field name='street2'>Municipio Chacao</field>
+            <field name='city'>Caracas</field>
+            <field name='zip'>1060</field>
+            <field name='state' ref='l10n_ve_res_country_state.VE_DC'/>
             <field name="country" ref='base.ve'/>
+            <field name='phone'>+582126108888</field>           
+            <field name='email'>atencion.cliente@bancrecer.com.ve</field>
         </record>
 
         <record model="res.bank" id="0169">
             <field name="name">Mi Banco, Banco Microfinanciero C.A.</field>
             <field name="bic">0169</field>
             <field name="active">1</field>
+            <field name='street'>Plaza Brión de Chacaito, Calle Guaicaipuro, Edif. Mibanco</field>
+            <field name='street2'>Chacaito</field>
+            <field name='city'>Caracas</field>
+            <field name='zip'>1050</field>
+            <field name='state' ref='l10n_ve_res_country_state.VE_DC'/>
             <field name="country" ref='base.ve'/>
+            <field name='phone'>+582129550800</field>           
+            <field name='fax'>+582129528582</field>
+            <field name='email'>info@mibanco.com.ve</field>
         </record>
 
         <record model="res.bank" id="0171">
             <field name="name">Banco Activo, Banco Universal</field>
             <field name="bic">0171</field>
             <field name="active">1</field>
+            <field name='street'>Av. Francisco de Miranda con Av. Los Cortijos, Torre Europa, Nivel PH, Urb. Campo Alegre</field>
+            <field name='street2'>Municipio Chacao</field>
+            <field name='city'>Caracas</field>
+            <field name='zip'>1060</field>
+            <field name='state' ref='l10n_ve_res_country_state.VE_DC'/>
             <field name="country" ref='base.ve'/>
+            <field name='phone'>+582129587353</field>           
+            <field name='email'>defensordelclienteactivo@bancoactivo.com.ve</field>
         </record>
 
         <record model="res.bank" id="0172">
-            <field name="name">Bancamica, Banco Microfinanciero C.A.</field>
+            <field name="name">Bancamiga, Banco Microfinanciero C.A.</field>
             <field name="bic">0172</field>
             <field name="active">1</field>
+            <field name='street'>Av. Francisco de Miranda, con Av. Eugenio Mendoza, Edif. Sede Gerencial, Piso 14</field>
+            <field name='street2'>La Castellana</field>
+            <field name='city'>Caracas</field>
+            <field name='zip'>1060</field>
+            <field name='state' ref='l10n_ve_res_country_state.VE_DC'/>
             <field name="country" ref='base.ve'/>
+            <field name='phone'>+582122018711</field>           
+            <field name='fax'>+582122615084</field>
+            <field name='email'>info@bancamiga.com</field>
         </record>
 
         <record model="res.bank" id="0173">
             <field name="name">Banco Internacional de Desarrollo, C.A. Banco Universal</field>
             <field name="bic">0173</field>
             <field name="active">1</field>
+            <field name='street'>Urb. El Rosal, Av. Francisco de Miranda Edificio Dozsa  Piso 8</field>
+            <field name='street2'>El Rosal</field>
+            <field name='city'>Caracas</field>
+            <field name='zip'>1060</field>
+            <field name='state' ref='l10n_ve_res_country_state.VE_DC'/>
             <field name="country" ref='base.ve'/>
+            <field name='phone'>+582129526563</field>           
+            <field name='fax'>+582129528635</field>
+            <field name='email'>info@bid.com.ve</fi0eld>
         </record>
 
         <record model="res.bank" id="0174">
             <field name="name">Banplus Banco Universal, C.A</field>
             <field name="bic">0174</field>
             <field name="active">1</field>
+            <field name='street'>Av. Francisco Solano, entre Calles Negrín y Los Apamates, Conjunto Residencial. Solano, Torre C, PB, Local 11</field>
+            <field name='street2'>Sabana Grande</field>
+            <field name='city'>Caracas</field>
+            <field name='zip'>1050</field>
+            <field name='state' ref='l10n_ve_res_country_state.VE_DC'/>
             <field name="country" ref='base.ve'/>
+            <field name='phone'>+582128087655</field>           
+            <field name='email'>banpluscomunicaciones@banplus.com</field>
         </record>
 
         <record model="res.bank" id="0175">
             <field name="name">Banco Bicentenario del Pueblo de la Clase Obrera, Mujer y Comunas B.U.</field>
             <field name="bic">0175</field>
             <field name="active">1</field>
+             <field name="active">1</field>
+            <field name='street'>Av. Francisco Solano López, Res. Solano, PB, Sabana Grande</field>
+            <field name='street2'>Municipio Libertador</field>
+            <field name='city'>Caracas</field>
+            <field name='zip'>1050</field>
+            <field name='state' ref='l10n_ve_res_country_state.VE_DC'/>
             <field name="country" ref='base.ve'/>
+            <field name='phone'>+582127622840 </field>           
+            <field name='email'>defensor.cliente@bicentenariobu.com</field>
         </record>
 
         <record model="res.bank" id="0176">
             <field name="name">Novo Banco, S.A. Sucursal Venezuela Banco Universal</field>
             <field name="bic">0176</field>
             <field name="active">1</field>
+            <field name='street'>Av. Francisco de Miranda, entre Av. Eugenio Mendoza y San Juan Bosco, Torre Financiera Caracas, Piso 4, La Castellana</field>
+            <field name='street2'>Municipio Chacao</field>
+            <field name='city'>Caracas</field>
+            <field name='zip'>1060</field>
+            <field name='state' ref='l10n_ve_res_country_state.VE_DC'/>
             <field name="country" ref='base.ve'/>
+            <field name='phone'>+582127717600</field>           
+            <field name='email'>contactanos@novobanco.com.ve</field>
         </record>
 
         <record model="res.bank" id="0177">
             <field name="name">Banco de la Fuerza Armada Nacional Bolivariana, B.U.</field>
             <field name="bic">0177</field>
             <field name="active">1</field>
+            <field name='street'>Torre Principal BANFANB Av Venezuela</field>
+            <field name='street2'>El Rosal</field>
+            <field name='city'>Caracas</field>
+            <field name='zip'>1060</field>
+            <field name='state' ref='l10n_ve_res_country_state.VE_DC'/>
             <field name="country" ref='base.ve'/>
+            <field name='phone'>+582123932615</field>           
+            <field name='email'>defensoria.cliente@banfanb.com.ve</field>
         </record>
 
         <record model="res.bank" id="0190">
             <field name="name">Citibank N.A.</field>
             <field name="bic">0190</field>
             <field name="active">1</field>
+            <field name='street'>Av. Casanova, Centro Comercial El Recreo Torre Norte PB, Nivel C-3</field>
+            <field name='street2'>Urb. Bello Monte</field>
+            <field name='city'>Caracas</field>
+            <field name='zip'>1050</field>
+            <field name='state' ref='l10n_ve_res_country_state.VE_DC'/>
             <field name="country" ref='base.ve'/>
+            <field name='phone'>2127052551</field>           
+            <field name='email'>defensoriadelcliente@citi.com</field>
         </record>
 
         <record model="res.bank" id="0191">
-            <field name="name">Banco Nacional de Crédito, C.A. Banco Universal</field>
+            <field name="name">Banco Nacional de Credito</field>
             <field name="bic">0191</field>
             <field name="active">1</field>
+            <field name='street'>Av. Vollmer, Centro Empresarial Caracas, Torre Sur, Urb. San Bernardino</field>
+            <field name='street2'>Municipio Libertador</field>
+            <field name='city'>Caracas</field>
+            <field name='zip'>1010</field>
+            <field name='state' ref='l10n_ve_res_country_state.VE_DC'/>
             <field name="country" ref='base.ve'/>
+            <field name='phone'>+582125975111</field>   
+            <field name='fax'>+58212597544</field>        
+            <field name='email'>servicliente@bnc.com.ve.</field>
         </record>
 
         <record model="res.bank" id="0601">
             <field name="name">Instituto Municipal de Crédito Popular</field>
             <field name="bic">0601</field>
             <field name="active">1</field>
+            <field name='street'>Plaza O'Leary, Edf. IMCP, Torre 1, PB</field>
+            <field name='street2'>El Silencio</field>
+            <field name='city'>Caracas</field>
+            <field name='zip'>1010</field>
+            <field name='state' ref='l10n_ve_res_country_state.VE_DC'/>
             <field name="country" ref='base.ve'/>
+            <field name='phone'>+582124812007</field>   
+            <field name='fax'>+582124817530</field>        
+            <field name='email'>http://www.imcp.com.ve</field>
         </record>
 
     </data>
